@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import axios from "axios";
 import Card from '../components/Cards/Card';
 
 export default function Episodes() {
-    const [id, setId] = useState(1);
+    const [id] = useState(1);
     const [info, setInfo] = useState([]);
     let [results, setResults] = useState([]);
     let { air_date, name } = info;
