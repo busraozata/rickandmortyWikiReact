@@ -6,7 +6,6 @@ import Filter from "../components/Filters/Filter";
 import axios from "axios";
 import Pagination from "../components/Pagination/Pagination";
 import Search from "../components/Search/Search";
-import Navbar from "../components/Navbar/Navbar";
 export default function Home() {
     let [pageNumber, setPageNumber] = useState(1);
     let [search, setSearch] = useState("");
